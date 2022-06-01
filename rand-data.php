@@ -41,7 +41,7 @@
         if($count == 100){
           // echo '<script>alert("おめでとうございます😀あんたは１００人目の訪問者です!<br>")</script>';
           echo '<script>if(!alert("おめでとうございます😀あなたは１００人目の訪問者です!\n情報を入力していますぐ100万円をゲット😁")){
-            location = "http://localhost/rand_data/input.php";
+            location = "https://tatsuki-kt.sakura.ne.jp/rand_data/input.php";
           }
           </script>';
         }
