@@ -34,6 +34,17 @@
       //ループ処理でアクセス数の数字を1つづつli要素に入れる
       for($i = 0; $i < count($count_ary); $i++){
         echo'<li>'.$count_ary[$i] .'</li>';
+        // echo '<script>if(!alert("おめでとうございます😀あなたは１００人目の訪問者です!\n情報を入力していますぐ100万円をゲット😁")){
+        //   location = "http://localhost/rand_data/input.php";
+        // }
+        // </script>';
+        if($count == 100){
+          // echo '<script>alert("おめでとうございます😀あんたは１００人目の訪問者です!<br>")</script>';
+          echo '<script>if(!alert("おめでとうございます😀あなたは１００人目の訪問者です!\n情報を入力していますぐ100万円をゲット😁")){
+            location = "http://localhost/rand_data/input.php";
+          }
+          </script>';
+        }
       }
       ?>
     </ul>

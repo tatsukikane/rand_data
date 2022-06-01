@@ -1,0 +1,11 @@
+body{
+  background-image: url(./honet.jpeg);
+  background-size: cover;
+}
+.text{
+  text-align: center;
+  padding-top: 300px;
+}
+.text h1{
+  color: white;
+}
